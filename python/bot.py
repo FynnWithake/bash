@@ -2,10 +2,10 @@ import discord
 from discord.ext import commands
 
 intents = discord.Intents.default()
-intents.typing = True
+intents.typing = False
 intents.presences = False
 
-TOKEN = "ODk1MzQyMzIzNzA0MTYwMjY2.GRIEYW.IEdnTSHg1roptXVr9gs_aiZS_nq1SzPMJXB1Z8"
+TOKEN = "YOUR_TOKEN"
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
